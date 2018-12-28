@@ -156,7 +156,7 @@ astyle:
 
 # flash with J-Link
 jflash:
-	JLinkExe -if swd -device stm32l475vg -speed 4000 -commandfile jlinkcmd > /dev/null
+	JLinkExe -if swd -device stm32l475vgt -speed 4000 -commandfile jlinkcmd > /dev/null
 
 # flash with STLINK 
 sflash:
