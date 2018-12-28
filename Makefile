@@ -146,7 +146,7 @@ clobber:
   
 ctags:
 	-rm -f tags
-	-ctags -R . 
+	-ctags -R . $(AWS_RTOS_ROOT)/lib
 
 astyle:
 	-find ./src -name *.c | xargs astyle --style=allman --indent=tab
